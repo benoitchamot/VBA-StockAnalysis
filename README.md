@@ -3,11 +3,10 @@
 VBA challenge for Monash University Bootcamp Module 2
 
 ## Files
-- Multiple_year_stock_data.xlsx: the original data file, unchanged)
-- Multiple_year_stock_data.xlsm: a copy of the original file with macro enabled and the new code
-- CalculateYearlyChange.vb: code for the main assignment.
-- CalculateMaxima.vbs: code for the first bonus.
+- CalculateYearlyChange.vbs: code for the main assignment
+- CalculateMaxima.vbs: code for the first bonus
 - RunAll.vbs: code for the second bonus and needs both the other files
+- Clear.vbs: code to clear one or all sheets
 
 ## Data description
 File: Multiple_year_stock_data.xlsx
@@ -24,9 +23,7 @@ Each tab contains 7 attributes (columns):
 - Volume of stocks
 
 ## Code description
-File: Multiple_year_stock_data.xlsm
-
-All the code is included in this Excel document and has also been exported in separate VBA files for ease of access and review.
+All the code can be included in Multiple_year_stock_data.xlsm and has also been exported in separate VBA files for ease of access and review.
 
 The subroutines are broken down to be run separately but can also be run all together by using the Run All (run all routines on a single tab) and Run On All Tabs buttons.
 
@@ -40,4 +37,4 @@ Sub CalculateYearlyChange (in file CalculateYearlyChange.vbs) corresponds to the
 Sub CalculateMaxima (in file CalculateMaxima.vbs) corresponds to the first bonus.
 Sub RunAll (in file RunAll.vbs) corresponds to the second bonus and needs both the other files
 
-Sub Clear and ClearAll are not part of the assignments but are used to conveniently reset the Excel sheet. They are not provided in separate VBS files.
+Sub Clear and ClearAll are not part of the assignments but are used to conveniently reset the Excel sheet. They are provided in Clear.vbc.
