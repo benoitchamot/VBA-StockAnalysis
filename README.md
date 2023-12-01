@@ -1,7 +1,4 @@
-# VBA-challenge
-## Description
-VBA challenge for Monash University Bootcamp Module 2
-
+# Stock Analysis
 ## Files
 - CalculateYearlyChange.vbs: code for the main assignment
 - CalculateMaxima.vbs: code for the first bonus
